@@ -1,79 +1,85 @@
-[12:58:32] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.5+9-LTS-239; Oracle Corporation null) on Mac OS X 14.3.1 (x86_64)
-[12:58:32] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-128-master@d348cb8 (2024-10-21T16:23:24Z) for Minecraft 1.21.1
-[12:58:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[12:58:34] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[12:58:34] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
- - plugin-sample2 (1.0-SNAPSHOT)
-[12:58:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:58:43] [ServerMain/INFO]: Loaded 1290 recipes
-[12:58:43] [ServerMain/INFO]: Loaded 1399 advancements
-[12:58:44] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[12:58:44] [Server thread/INFO]: Loading properties
-[12:58:44] [Server thread/INFO]: This server is running Paper version 1.21.1-128-master@d348cb8 (2024-10-21T16:23:24Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[12:58:45] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[12:58:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:58:45] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:58:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and population gen parallelism of 2 threads
-[12:58:46] [Server thread/INFO]: Default game type: SURVIVAL
-[12:58:46] [Server thread/INFO]: Generating keypair
-[12:58:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:58:46] [Server thread/INFO]: Using default channel type
-[12:58:46] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[12:58:46] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[12:58:46] [Server thread/INFO]: [plugin-sample2] Loading server plugin plugin-sample2 v1.0-SNAPSHOT
-[12:58:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:58:46] [Server thread/INFO]: Preparing level "world"
-[12:58:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:58:49] [Server thread/INFO]: Time elapsed: 1497 ms
-[12:58:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:58:49] [Server thread/INFO]: Time elapsed: 237 ms
-[12:58:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:58:49] [Server thread/INFO]: Time elapsed: 103 ms
-[12:58:49] [Server thread/INFO]: [plugin-sample2] Enabling plugin-sample2 v1.0-SNAPSHOT
-[12:58:49] [Server thread/INFO]: 1
-[12:58:49] [Server thread/INFO]: 2
-[12:58:49] [Server thread/INFO]: 3
-[12:58:49] [Server thread/INFO]: 4
-[12:58:49] [Server thread/INFO]: 5
-[12:58:49] [Server thread/INFO]: [spark] Starting background profiler...
-[12:58:49] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (macosx/x86_64), so the built-in Java engine will be used instead.
-[12:58:49] [Server thread/INFO]: Done preparing level "world" (2.834s)
-[12:58:49] [Server thread/INFO]: Running delayed init tasks
-[12:58:49] [Server thread/INFO]: Done (18.520s)! For help, type "help"
-[12:58:49] [Server thread/INFO]: Timings Reset
-[12:59:19] [Server thread/INFO]: Made HRMW77 a server operator
-[13:00:32] [User Authenticator #0/INFO]: UUID of player HRMW77 is c1be0b8d-3232-4434-80fc-70b0616beb6a
-[13:00:34] [Server thread/INFO]: HRMW77 joined the game
-[13:00:35] [Server thread/INFO]: HRMW77[/127.0.0.1:60085] logged in with entity id 48 at ([world]-101.92020051645119, 72.0, 140.73793209262735)
-[13:01:19] [Server thread/INFO]: HRMW77 issued server command: /gamemode creative
-[13:01:19] [Server thread/INFO]: [HRMW77: Set own game mode to Creative Mode]
-[13:02:45] [Server thread/INFO]: HRMW77 lost connection: Disconnected
-[13:02:45] [Server thread/INFO]: HRMW77 left the game
-[13:02:47] [User Authenticator #1/INFO]: UUID of player HRMW77 is c1be0b8d-3232-4434-80fc-70b0616beb6a
-[13:02:48] [Server thread/INFO]: HRMW77 joined the game
-[13:02:48] [Server thread/INFO]: HRMW77[/127.0.0.1:60174] logged in with entity id 411 at ([world]-104.15540929427864, 69.0, 149.29082026234252)
-[13:02:54] [Server thread/INFO]: HRMW77 lost connection: Disconnected
-[13:02:54] [Server thread/INFO]: HRMW77 left the game
-[14:39:27] [Server thread/INFO]: Stopping server
-[14:39:27] [Server thread/INFO]: [plugin-sample2] Disabling plugin-sample2 v1.0-SNAPSHOT
-[14:39:27] [Server thread/INFO]: Saving players
-[14:39:27] [Server thread/INFO]: Saving worlds
-[14:39:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:39:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[14:39:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[14:39:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[14:39:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 98 entity chunks, 0 poi chunks in world 'world' in 0.31s
-[14:39:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:39:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[14:39:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[14:39:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[14:39:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world_nether' in 0.15s
-[14:39:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:39:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[14:39:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[14:39:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[14:39:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.17s
-[14:39:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:39:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:39:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:39:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:34:05] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.5+9-LTS-239; Oracle Corporation null) on Mac OS X 14.3.1 (x86_64)
+[16:34:05] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-128-master@d348cb8 (2024-10-21T16:23:24Z) for Minecraft 1.21.1
+[16:34:06] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:34:07] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/plugin-sample2-1.0-SNAPSHOT.jar'...
+[16:34:08] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/plugin-sample2-1.0-SNAPSHOT.jar' in 972ms.
+[16:34:08] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[16:34:08] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - plugin-sample2 (${version})
+[16:34:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:34:19] [ServerMain/INFO]: Loaded 1290 recipes
+[16:34:19] [ServerMain/INFO]: Loaded 1399 advancements
+[16:34:20] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[16:34:20] [Server thread/INFO]: Loading properties
+[16:34:20] [Server thread/INFO]: This server is running Paper version 1.21.1-128-master@d348cb8 (2024-10-21T16:23:24Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[16:34:21] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:34:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:34:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:34:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and population gen parallelism of 2 threads
+[16:34:23] [Server thread/INFO]: Default game type: SURVIVAL
+[16:34:23] [Server thread/INFO]: Generating keypair
+[16:34:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:34:23] [Server thread/INFO]: Using default channel type
+[16:34:23] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:34:23] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:34:24] [Server thread/INFO]: [plugin-sample2] Loading server plugin plugin-sample2 v${version}
+[16:34:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:34:24] [Server thread/INFO]: Preparing level "world"
+[16:34:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:34:26] [Server thread/INFO]: Time elapsed: 1335 ms
+[16:34:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:34:26] [Server thread/INFO]: Time elapsed: 271 ms
+[16:34:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:34:26] [Server thread/INFO]: Time elapsed: 88 ms
+[16:34:26] [Server thread/INFO]: [plugin-sample2] Enabling plugin-sample2 v${version}
+[16:34:26] [Server thread/INFO]: 1
+[16:34:26] [Server thread/INFO]: 2
+[16:34:26] [Server thread/INFO]: 3
+[16:34:26] [Server thread/INFO]: 4
+[16:34:26] [Server thread/INFO]: 5
+[16:34:26] [Server thread/INFO]: [spark] Starting background profiler...
+[16:34:26] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (macosx/x86_64), so the built-in Java engine will be used instead.
+[16:34:26] [Server thread/INFO]: Done preparing level "world" (2.837s)
+[16:34:26] [Server thread/INFO]: Running delayed init tasks
+[16:34:26] [Server thread/INFO]: Done (23.910s)! For help, type "help"
+[16:34:26] [Server thread/INFO]: Timings Reset
+[16:34:42] [User Authenticator #0/INFO]: UUID of player HRMW77 is c1be0b8d-3232-4434-80fc-70b0616beb6a
+[16:34:43] [Server thread/INFO]: HRMW77 joined the game
+[16:34:44] [Server thread/INFO]: HRMW77[/127.0.0.1:49703] logged in with entity id 48 at ([world]-104.15540929427864, 69.0, 149.29082026234252)
+[16:35:11] [Server thread/INFO]: HRMW77 issued server command: /levelup
+[16:36:20] [Server thread/INFO]: HRMW77 issued server command: /gamemode survival
+[16:36:20] [Server thread/INFO]: [HRMW77: Set own game mode to Survival Mode]
+[16:36:29] [Server thread/INFO]: HRMW77 issued server command: /levelup
+[16:36:38] [Server thread/INFO]: HRMW77 issued server command: /gamemode
+[16:36:47] [Server thread/INFO]: HRMW77 issued server command: /gamemode creative
+[16:36:47] [Server thread/INFO]: [HRMW77: Set own game mode to Creative Mode]
+[16:38:59] [Server thread/INFO]: HRMW77 lost connection: Disconnected
+[16:38:59] [Server thread/INFO]: HRMW77 left the game
+[16:41:47] [User Authenticator #1/INFO]: UUID of player HRMW77 is c1be0b8d-3232-4434-80fc-70b0616beb6a
+[16:41:48] [Server thread/INFO]: HRMW77 joined the game
+[16:41:48] [Server thread/INFO]: HRMW77[/127.0.0.1:50023] logged in with entity id 621 at ([world]-103.5, 69.0, 150.5)
+[16:42:12] [Server thread/INFO]: HRMW77 lost connection: Disconnected
+[16:42:12] [Server thread/INFO]: HRMW77 left the game
+[17:12:41] [Server thread/INFO]: Stopping server
+[17:12:41] [Server thread/INFO]: [plugin-sample2] Disabling plugin-sample2 v${version}
+[17:12:41] [Server thread/INFO]: Saving players
+[17:12:41] [Server thread/INFO]: Saving worlds
+[17:12:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:12:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:12:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:12:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:12:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 103 entity chunks, 0 poi chunks in world 'world' in 0.29s
+[17:12:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:12:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:12:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:12:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:12:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world_nether' in 0.13s
+[17:12:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:12:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:12:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:12:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:12:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.19s
+[17:12:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:12:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:12:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:12:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
